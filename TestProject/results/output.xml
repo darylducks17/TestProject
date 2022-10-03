@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.10.7 on win32)" generated="20220930 13:55:29.852" rpa="false" schemaversion="3">
+<suite id="s1" name="Alerts" source="H:\TestProject\TestCases\Alerts.robot">
+<test id="s1-t1" name="Handling Alerts" line="13">
+<kw name="Open Page">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${URL}</arg>
+<arg>${Browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220930 13:55:30.013" level="INFO">Opening browser 'Edge' to base url 'https://demo.seleniumeasy.com/javascript-alert-box-demo.html'.</msg>
+<status status="PASS" starttime="20220930 13:55:30.013" endtime="20220930 13:55:35.162"/>
+</kw>
+<status status="PASS" starttime="20220930 13:55:30.013" endtime="20220930 13:55:35.163"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20220930 13:55:35.163" endtime="20220930 13:55:35.282"/>
+</kw>
+<kw name="Time">
+<kw name="Set Selenium Speed" library="SeleniumLibrary">
+<arg>1</arg>
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<status status="PASS" starttime="20220930 13:55:35.283" endtime="20220930 13:55:35.283"/>
+</kw>
+<status status="PASS" starttime="20220930 13:55:35.283" endtime="20220930 13:55:35.283"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath://*[@id="easycont"]/div/div[2]/div[2]/div[2]/button</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220930 13:55:35.284" level="INFO">Clicking element 'xpath://*[@id="easycont"]/div/div[2]/div[2]/div[2]/button'.</msg>
+<status status="PASS" starttime="20220930 13:55:35.283" endtime="20220930 13:55:37.345"/>
+</kw>
+<kw name="Handle Alert" library="SeleniumLibrary">
+<arg>Dismiss</arg>
+<doc>Handles the current alert and returns its message.</doc>
+<msg timestamp="20220930 13:55:37.346" level="INFO">HANDLE::&lt;class 'NoneType'&gt;::None</msg>
+<status status="PASS" starttime="20220930 13:55:37.345" endtime="20220930 13:55:40.377"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20220930 13:55:40.378" endtime="20220930 13:55:43.469"/>
+</kw>
+<status status="PASS" starttime="20220930 13:55:30.012" endtime="20220930 13:55:43.470"/>
+</test>
+<status status="PASS" starttime="20220930 13:55:29.873" endtime="20220930 13:55:43.471"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Alerts">Alerts</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
