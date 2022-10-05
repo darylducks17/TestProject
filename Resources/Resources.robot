@@ -9,3 +9,10 @@ Launch Browser
     Maximize Browser Window
     ${Title}=    Get Title
     [Return]    ${Title}
+
+Speed 
+    Set Selenium Speed    1
+
+
+
+    
