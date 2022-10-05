@@ -12,7 +12,8 @@ Learning Web Automation using Robot Framework (Selenium with Python) as part of 
 - Capturing element & full page screenshots
 - Performing mouse operations
 - Scrolling page using JavaScript executor
-- Handle tabbed and browser windows
+- Handle tabbed & browser windows
+- User defined keywords & resource files
 
 ### Sources: 
 - https://www.youtube.com/playlist?list=PLUDwpEzHYYLsCHiiihnwl3L0xPspL7BPG
