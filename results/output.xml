@@ -1,56 +1,143 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 5.0.1 (Python 3.10.7 on win32)" generated="20221004 15:41:48.730" rpa="false" schemaversion="3">
-<suite id="s1" name="MouseActions" source="H:\TestProject\TestCases\MouseActions.robot">
-<test id="s1-t1" name="Mouse Actions" line="15">
+<robot generator="Robot 5.0.1 (Python 3.10.7 on win32)" generated="20221005 15:08:58.645" rpa="false" schemaversion="3">
+<suite id="s1" name="TabbedWindows" source="H:\TestProject\TestCases\TabbedWindows.robot">
+<test id="s1-t1" name="Tabbed Windows" line="15">
 <kw name="Open Browser" library="SeleniumLibrary">
 <arg>${URL}</arg>
 <arg>${Browser}</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<msg timestamp="20221004 15:41:48.899" level="INFO">Opening browser 'Edge' to base url 'https://swisnl.github.io/jQuery-contextMenu/demo.html'.</msg>
-<status status="PASS" starttime="20221004 15:41:48.899" endtime="20221004 15:41:50.805"/>
+<msg timestamp="20221005 15:08:58.838" level="INFO">Opening browser 'Edge' to base url 'https://demo.automationtesting.in/Windows.html'.</msg>
+<status status="PASS" starttime="20221005 15:08:58.837" endtime="20221005 15:09:02.535"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20221005 15:09:02.537" endtime="20221005 15:09:02.674"/>
 </kw>
 <kw name="Speed">
 <kw name="Set Selenium Speed" library="SeleniumLibrary">
 <arg>1</arg>
 <doc>Sets the delay that is waited after each Selenium command.</doc>
-<status status="PASS" starttime="20221004 15:41:50.807" endtime="20221004 15:41:50.807"/>
+<status status="PASS" starttime="20221005 15:09:02.675" endtime="20221005 15:09:02.675"/>
 </kw>
-<status status="PASS" starttime="20221004 15:41:50.805" endtime="20221004 15:41:50.807"/>
+<status status="PASS" starttime="20221005 15:09:02.675" endtime="20221005 15:09:02.675"/>
 </kw>
-<kw name="Maximize Browser Window" library="SeleniumLibrary">
-<doc>Maximizes current browser window.</doc>
-<status status="PASS" starttime="20221004 15:41:50.807" endtime="20221004 15:41:51.941"/>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath://*[@id="Tabbed"]/a/button</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20221005 15:09:02.676" level="INFO">Clicking element 'xpath://*[@id="Tabbed"]/a/button'.</msg>
+<status status="PASS" starttime="20221005 15:09:02.675" endtime="20221005 15:09:04.748"/>
 </kw>
-<kw name="Go To" library="SeleniumLibrary">
-<arg>${URL2}</arg>
-<doc>Navigates the current browser window to the provided ``url``.</doc>
-<msg timestamp="20221004 15:41:51.942" level="INFO">Opening url 'https://demo.seleniumeasy.com/drag-and-drop-demo.html'</msg>
-<status status="PASS" starttime="20221004 15:41:51.941" endtime="20221004 15:41:55.157"/>
+<kw name="Switch Window" library="SeleniumLibrary">
+<arg>title=Selenium</arg>
+<doc>Switches to browser window matching ``locator``.</doc>
+<status status="PASS" starttime="20221005 15:09:04.749" endtime="20221005 15:09:17.920"/>
 </kw>
-<kw name="Drag And Drop" library="SeleniumLibrary">
-<arg>xpath://*[@id="todrag"]/span[1]</arg>
-<arg>xpath://*[@id="mydropzone"]</arg>
-<doc>Drags the element identified by ``locator`` into the ``target`` element.</doc>
-<status status="PASS" starttime="20221004 15:41:55.157" endtime="20221004 15:42:04.228"/>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath://*[@id="main_navbar"]/ul/li[3]/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20221005 15:09:17.920" level="INFO">Clicking element 'xpath://*[@id="main_navbar"]/ul/li[3]/a'.</msg>
+<status status="PASS" starttime="20221005 15:09:17.920" endtime="20221005 15:09:20.552"/>
 </kw>
 <kw name="Close Browser" library="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" starttime="20221004 15:42:04.228" endtime="20221004 15:42:07.310"/>
+<status status="PASS" starttime="20221005 15:09:20.553" endtime="20221005 15:09:23.615"/>
 </kw>
-<status status="PASS" starttime="20221004 15:41:48.898" endtime="20221004 15:42:07.311"/>
+<status status="PASS" starttime="20221005 15:08:58.837" endtime="20221005 15:09:23.616"/>
 </test>
-<status status="PASS" starttime="20221004 15:41:48.753" endtime="20221004 15:42:07.312"/>
+<test id="s1-t2" name="Browser Windows" line="26">
+<kw name="Speed">
+<kw name="Set Selenium Speed" library="SeleniumLibrary">
+<arg>1</arg>
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<status status="PASS" starttime="20221005 15:09:23.618" endtime="20221005 15:09:23.618"/>
+</kw>
+<status status="PASS" starttime="20221005 15:09:23.618" endtime="20221005 15:09:23.618"/>
+</kw>
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${URL1}</arg>
+<arg>${Browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20221005 15:09:23.619" level="INFO">Opening browser 'Edge' to base url 'https://www.google.com/'.</msg>
+<status status="PASS" starttime="20221005 15:09:23.619" endtime="20221005 15:09:26.387"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20221005 15:09:26.387" endtime="20221005 15:09:27.526"/>
+</kw>
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${URL2}</arg>
+<arg>${Browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20221005 15:09:27.527" level="INFO">Opening browser 'Edge' to base url 'https://www.bing.com/'.</msg>
+<status status="PASS" starttime="20221005 15:09:27.527" endtime="20221005 15:09:32.048"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20221005 15:09:32.048" endtime="20221005 15:09:33.176"/>
+</kw>
+<kw name="Switch Browser" library="SeleniumLibrary">
+<arg>1</arg>
+<doc>Switches between active browsers using ``index_or_alias``.</doc>
+<status status="PASS" starttime="20221005 15:09:33.177" endtime="20221005 15:09:33.177"/>
+</kw>
+<kw name="Get Title" library="SeleniumLibrary">
+<var>${title}</var>
+<doc>Returns the title of the current page.</doc>
+<msg timestamp="20221005 15:09:37.285" level="WARN">Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x000001BA8A365840&gt;: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/e0e82733bb173b58b71e51e899a2fef7/title</msg>
+<msg timestamp="20221005 15:09:41.383" level="WARN">Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x000001BA8A366C80&gt;: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/e0e82733bb173b58b71e51e899a2fef7/title</msg>
+<msg timestamp="20221005 15:09:45.468" level="WARN">Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x000001BA8A366950&gt;: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/e0e82733bb173b58b71e51e899a2fef7/title</msg>
+<msg timestamp="20221005 15:09:53.891" level="WARN">Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x000001BA8A4002B0&gt;: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/e0e82733bb173b58b71e51e899a2fef7/screenshot</msg>
+<msg timestamp="20221005 15:09:57.985" level="WARN">Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x000001BA8A400580&gt;: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/e0e82733bb173b58b71e51e899a2fef7/screenshot</msg>
+<msg timestamp="20221005 15:10:02.069" level="WARN">Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x000001BA8A400670&gt;: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/e0e82733bb173b58b71e51e899a2fef7/screenshot</msg>
+<msg timestamp="20221005 15:10:06.165" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: HTTPConnectionPool(host='localhost', port=62192): Max retries exceeded with url: /session/e0e82733bb173b58b71e51e899a2fef7/screenshot (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x000001BA8A4007F0&gt;: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))</msg>
+<msg timestamp="20221005 15:10:06.167" level="FAIL">MaxRetryError: HTTPConnectionPool(host='localhost', port=62192): Max retries exceeded with url: /session/e0e82733bb173b58b71e51e899a2fef7/title (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x000001BA8A3659C0&gt;: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))</msg>
+<status status="FAIL" starttime="20221005 15:09:33.177" endtime="20221005 15:10:06.171"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${title}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" starttime="20221005 15:10:06.171" endtime="20221005 15:10:06.171"/>
+</kw>
+<kw name="Switch Browser" library="SeleniumLibrary">
+<arg>2</arg>
+<doc>Switches between active browsers using ``index_or_alias``.</doc>
+<status status="NOT RUN" starttime="20221005 15:10:06.172" endtime="20221005 15:10:06.172"/>
+</kw>
+<kw name="Get Title" library="SeleniumLibrary">
+<var>${title1}</var>
+<doc>Returns the title of the current page.</doc>
+<status status="NOT RUN" starttime="20221005 15:10:06.172" endtime="20221005 15:10:06.172"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${title1}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" starttime="20221005 15:10:06.172" endtime="20221005 15:10:06.172"/>
+</kw>
+<kw name="Close All Browsers" library="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="NOT RUN" starttime="20221005 15:10:06.172" endtime="20221005 15:10:06.172"/>
+</kw>
+<status status="FAIL" starttime="20221005 15:09:23.617" endtime="20221005 15:10:06.173">MaxRetryError: HTTPConnectionPool(host='localhost', port=62192): Max retries exceeded with url: /session/e0e82733bb173b58b71e51e899a2fef7/title (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x000001BA8A3659C0&gt;: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))</status>
+</test>
+<status status="FAIL" starttime="20221005 15:08:58.667" endtime="20221005 15:10:06.175"/>
 </suite>
 <statistics>
 <total>
-<stat pass="1" fail="0" skip="0">All Tests</stat>
+<stat pass="1" fail="1" skip="0">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat pass="1" fail="0" skip="0" id="s1" name="MouseActions">MouseActions</stat>
+<stat pass="1" fail="1" skip="0" id="s1" name="TabbedWindows">TabbedWindows</stat>
 </suite>
 </statistics>
 <errors>
+<msg timestamp="20221005 15:09:37.285" level="WARN">Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x000001BA8A365840&gt;: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/e0e82733bb173b58b71e51e899a2fef7/title</msg>
+<msg timestamp="20221005 15:09:41.383" level="WARN">Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x000001BA8A366C80&gt;: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/e0e82733bb173b58b71e51e899a2fef7/title</msg>
+<msg timestamp="20221005 15:09:45.468" level="WARN">Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x000001BA8A366950&gt;: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/e0e82733bb173b58b71e51e899a2fef7/title</msg>
+<msg timestamp="20221005 15:09:53.891" level="WARN">Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x000001BA8A4002B0&gt;: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/e0e82733bb173b58b71e51e899a2fef7/screenshot</msg>
+<msg timestamp="20221005 15:09:57.985" level="WARN">Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x000001BA8A400580&gt;: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/e0e82733bb173b58b71e51e899a2fef7/screenshot</msg>
+<msg timestamp="20221005 15:10:02.069" level="WARN">Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x000001BA8A400670&gt;: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/e0e82733bb173b58b71e51e899a2fef7/screenshot</msg>
+<msg timestamp="20221005 15:10:06.165" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: HTTPConnectionPool(host='localhost', port=62192): Max retries exceeded with url: /session/e0e82733bb173b58b71e51e899a2fef7/screenshot (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x000001BA8A4007F0&gt;: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))</msg>
 </errors>
 </robot>
