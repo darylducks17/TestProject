@@ -18,6 +18,7 @@ Learning Web Automation using Robot Framework (Selenium with Python) as part of 
 - Working with For Loops
 - Extracting link texts
 - Handling web/HTML tables
+- Data driven tests using scripts, Excel and CSV
 
 ### Sources: 
 - https://www.youtube.com/playlist?list=PLUDwpEzHYYLsCHiiihnwl3L0xPspL7BPG

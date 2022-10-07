@@ -21,9 +21,9 @@ Wrong User Wrong Password    admn@yourstore.com    xyz
 
 *** Keywords ***
 Invalid Login 
-    [Arguments]    ${username}    ${password}
+    [Arguments]    ${email}    ${password}
     Go To Login Page
-    Input Email    ${username}
+    Input Email    ${email}
     Input PSWD   ${password}
     Click Login
     Error Message Should Be Visible
