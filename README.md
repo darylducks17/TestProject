@@ -16,6 +16,7 @@ Learning Web Automation using Robot Framework (Selenium with Python) as part of 
 - User defined keywords & resource files
 - Scrolling page using JavaScript executor
 - Working with For Loops
+- Extracting link texts
 
 ### Sources: 
 - https://www.youtube.com/playlist?list=PLUDwpEzHYYLsCHiiihnwl3L0xPspL7BPG
