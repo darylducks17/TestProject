@@ -67,7 +67,7 @@ Learning Web Automation using Robot Framework (Selenium with Python) as part of 
     - Create a batch file - run.bat
     - In run.bat specify the path 
  ``` C:\Users\admin\xxxxxx\xxxxxx\TestProject pabot --processes 2 --outputdir Results TestCases\*.robot ```
-    - Run the CMD script
+    - Run the CMD script by double clicking the icon in directory
 
  ## Note to Self
  - Ensure to change to the correct path in run.bat
