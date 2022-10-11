@@ -38,6 +38,7 @@ Learning Web Automation using Robot Framework (Selenium with Python) as part of 
 - After installing the library you will also need to install the browser and OS specific browser drivers for the browsers you want to test. 
     - For TestProject I used Edge, so downloaded the Edge driver from the website. 
     - https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/
+    - Make sure to add to the Python Scripts folder to run the web automation tests. 
 
 ### Other Pre-requisites  
 - You will need to install other packages to efficiently run all the tests in TestProject. 
