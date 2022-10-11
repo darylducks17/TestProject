@@ -5,6 +5,8 @@ Resource    Alerts.robot
 
 *** Variables ***
 ${URl}    https://demo.guru99.com/selenium/newtours/index.php
+#headlessfirefox/chrome- allows the tests to run in the backend
+#as a user you cannot see the workflow or the browser
 ${BROWSER}    Edge  
 ${USER}    tutorial
 ${PASS}    tutorial
