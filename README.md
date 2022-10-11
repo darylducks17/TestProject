@@ -1,7 +1,7 @@
 # TestProject
 Learning Web Automation using Robot Framework (Selenium with Python) as part of my placement at Atradius.
 
-## Topics I Have Covered: 
+## Topics I Have Covered 
 - Handling input boxes
 - Selecting & unselecting radio buttons
 - Checking & unchecking check boxes
