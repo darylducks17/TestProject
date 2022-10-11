@@ -20,5 +20,6 @@ Login To Website
     #Can capture screenshot of most elements
     #Capture Element Screenshot    xpath: //*[@id="app"]/div[1]/div/div[1]/div/div[1]    H:/TestProject/ScreenShots/Logo.png
     Maximize Browser Window
+    #change the path where you want to store the screenshot
     Capture Page Screenshot    H:/TestProject/ScreenShots/Login To Website.png
     Close Browser
