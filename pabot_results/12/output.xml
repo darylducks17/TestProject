@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.8.0 on win32)" generated="20221011 10:20:36.673" rpa="false" schemaversion="3">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="MouseActions" source="C:\Users\d_joh\OneDrive\Coding Projects\TestProject\TestCases\MouseActions.robot">
+<test id="s1-s1-t1" name="Mouse Actions" line="15">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${URL}</arg>
+<arg>${Browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20221011 10:20:36.936" level="INFO">Opening browser 'Edge' to base url 'https://swisnl.github.io/jQuery-contextMenu/demo.html'.</msg>
+<status status="PASS" starttime="20221011 10:20:36.935" endtime="20221011 10:20:41.056"/>
+</kw>
+<kw name="Speed">
+<kw name="Set Selenium Speed" library="SeleniumLibrary">
+<arg>1</arg>
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<status status="PASS" starttime="20221011 10:20:41.057" endtime="20221011 10:20:41.058"/>
+</kw>
+<status status="PASS" starttime="20221011 10:20:41.056" endtime="20221011 10:20:41.058"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20221011 10:20:41.058" endtime="20221011 10:20:42.341"/>
+</kw>
+<kw name="Open Context Menu" library="SeleniumLibrary">
+<arg>xpath: /html/body/div/section/div/div/div/p/span</arg>
+<doc>Opens the context menu on the element identified by ``locator``.</doc>
+<status status="PASS" starttime="20221011 10:20:42.342" endtime="20221011 10:20:44.699"/>
+</kw>
+<kw name="Go To" library="SeleniumLibrary">
+<arg>${URL1}</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<msg timestamp="20221011 10:20:44.701" level="INFO">Opening url 'https://demoqa.com/buttons'</msg>
+<status status="PASS" starttime="20221011 10:20:44.700" endtime="20221011 10:20:47.066"/>
+</kw>
+<kw name="Double Click Element" library="SeleniumLibrary">
+<arg>xpath://*[@id="doubleClickBtn"]</arg>
+<doc>Double clicks the element identified by ``locator``.</doc>
+<msg timestamp="20221011 10:20:47.067" level="INFO">Double clicking element 'xpath://*[@id="doubleClickBtn"]'.</msg>
+<status status="PASS" starttime="20221011 10:20:47.066" endtime="20221011 10:20:49.435"/>
+</kw>
+<kw name="Go To" library="SeleniumLibrary">
+<arg>${URL2}</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<msg timestamp="20221011 10:20:49.437" level="INFO">Opening url 'https://demo.seleniumeasy.com/drag-and-drop-demo.html'</msg>
+<status status="PASS" starttime="20221011 10:20:49.436" endtime="20221011 10:20:52.071"/>
+</kw>
+<kw name="Drag And Drop" library="SeleniumLibrary">
+<arg>xpath://*[@id="todrag"]/span[1]</arg>
+<arg>xpath://*[@id="mydropzone"]</arg>
+<doc>Drags the element identified by ``locator`` into the ``target`` element.</doc>
+<status status="PASS" starttime="20221011 10:20:52.072" endtime="20221011 10:22:15.370"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20221011 10:22:15.371" endtime="20221011 10:22:18.448"/>
+</kw>
+<status status="PASS" starttime="20221011 10:20:36.935" endtime="20221011 10:22:18.449"/>
+</test>
+<status status="PASS" starttime="20221011 10:20:36.706" endtime="20221011 10:22:18.451"/>
+</suite>
+<status status="PASS" starttime="20221011 10:20:36.687" endtime="20221011 10:22:18.454"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Suites">Suites</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="MouseActions">Suites.MouseActions</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

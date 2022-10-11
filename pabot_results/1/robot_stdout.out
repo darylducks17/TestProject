@@ -1,0 +1,24 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.Capture                                                                
+==============================================================================
+Login To Website                                                        
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\d_joh\OneDrive\Coding Projects\TestProject\TestCases\Capture.robot:13
+    T:  Login To Website    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\d_joh\OneDrive\Coding Projects\TestProject\TestCases\Capture.robot:23
+      Capture Page Screenshot    H:/TestProject/ScreenShots/Login To Website.png
+______________________________________________________________________________
+| FAIL |
+FileNotFoundError: [WinError 3] The system cannot find the path specified: 'H:\\'
+------------------------------------------------------------------------------
+Suites.Capture                                                        | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Suites                                                                | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Users\d_joh\OneDrive\Coding Projects\TestProject\pabot_results\1\output.xml

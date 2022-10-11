@@ -1,0 +1,3 @@
+[ WARN ] Open Browser is for quick experimentation and debugging only. Use New Page for production.
+[ WARN ] Keyword 'Take Screenshot  fail-screenshot-{index}' could not be run on failure:
+Error: Tried to take screenshot, but no page was open.

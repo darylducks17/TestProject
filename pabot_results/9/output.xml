@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.8.0 on win32)" generated="20221011 10:19:52.896" rpa="false" schemaversion="3">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="Keywords" source="C:\Users\d_joh\OneDrive\Coding Projects\TestProject\TestCases\Keywords.robot">
+<test id="s1-s1-t1" name="Navigation Test" line="13">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${URL}</arg>
+<arg>${Browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20221011 10:19:53.137" level="INFO">Opening browser 'Edge' to base url 'https://www.google.co.uk/'.</msg>
+<status status="PASS" starttime="20221011 10:19:53.136" endtime="20221011 10:19:57.662"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20221011 10:19:57.662" endtime="20221011 10:19:57.836"/>
+</kw>
+<kw name="Speed">
+<kw name="Set Selenium Speed" library="SeleniumLibrary">
+<arg>1</arg>
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<status status="PASS" starttime="20221011 10:19:57.845" endtime="20221011 10:19:57.847"/>
+</kw>
+<status status="PASS" starttime="20221011 10:19:57.839" endtime="20221011 10:19:57.847"/>
+</kw>
+<kw name="Get Location" library="SeleniumLibrary">
+<var>${loc}</var>
+<doc>Returns the current browser window URL.</doc>
+<msg timestamp="20221011 10:19:58.902" level="INFO">${loc} = https://www.google.co.uk/</msg>
+<status status="PASS" starttime="20221011 10:19:57.847" endtime="20221011 10:19:58.902"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${loc}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20221011 10:19:58.903" endtime="20221011 10:19:58.904"/>
+</kw>
+<kw name="Go To" library="SeleniumLibrary">
+<arg>https://www.bing.com/</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<msg timestamp="20221011 10:19:58.904" level="INFO">Opening url 'https://www.bing.com/'</msg>
+<status status="PASS" starttime="20221011 10:19:58.904" endtime="20221011 10:20:00.202"/>
+</kw>
+<kw name="Get Location" library="SeleniumLibrary">
+<var>${loc}</var>
+<doc>Returns the current browser window URL.</doc>
+<msg timestamp="20221011 10:20:01.846" level="INFO">${loc} = https://www.bing.com/</msg>
+<status status="PASS" starttime="20221011 10:20:00.202" endtime="20221011 10:20:01.846"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${loc}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20221011 10:20:01.847" endtime="20221011 10:20:01.848"/>
+</kw>
+<kw name="Go Back" library="SeleniumLibrary">
+<doc>Simulates the user clicking the back button on their browser.</doc>
+<status status="PASS" starttime="20221011 10:20:01.848" endtime="20221011 10:20:03.224"/>
+</kw>
+<kw name="Get Location" library="SeleniumLibrary">
+<var>${loc}</var>
+<doc>Returns the current browser window URL.</doc>
+<msg timestamp="20221011 10:20:04.242" level="INFO">${loc} = https://www.google.co.uk/</msg>
+<status status="PASS" starttime="20221011 10:20:03.225" endtime="20221011 10:20:04.242"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${loc}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20221011 10:20:04.243" endtime="20221011 10:20:04.246"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20221011 10:20:04.246" endtime="20221011 10:20:07.580"/>
+</kw>
+<status status="PASS" starttime="20221011 10:19:53.136" endtime="20221011 10:20:07.581"/>
+</test>
+<status status="PASS" starttime="20221011 10:19:52.924" endtime="20221011 10:20:07.586"/>
+</suite>
+<status status="PASS" starttime="20221011 10:19:52.906" endtime="20221011 10:20:07.593"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Suites">Suites</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="Keywords">Suites.Keywords</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

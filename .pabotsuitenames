@@ -1,0 +1,26 @@
+datasources:ad5b43558e0c042843dd3d7dcbcc4c7c93987451
+commandlineoptions:9f8598a690c7367accf83ead504756ddd374acc9
+suitesfrom:no-suites-from-option
+file:cb454adf987a3ecd7b6e4558cf3c24169a24f171
+--suite Suites.Alerts
+--suite Suites.Capture
+--suite Suites.CloseAll
+--suite Suites.DDT1
+--suite Suites.DDT2
+--suite Suites.DDT3
+--suite Suites.DropDown
+--suite Suites.ForLoop
+--suite Suites.InputBox
+--suite Suites.Keywords
+--suite Suites.Links
+--suite Suites.LoginTest
+--suite Suites.MouseActions
+--suite Suites.RadioButtons
+--suite Suites.ScrollingPage
+--suite Suites.TC1
+--suite Suites.TabbedWindows
+--suite Suites.Table
+--suite Suites.Tags
+--suite Suites.Test
+--suite Suites.TimeOut
+--suite Suites.UserKeywords

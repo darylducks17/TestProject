@@ -1,0 +1,26 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.TabbedWindows                                                          
+==============================================================================
+Tabbed Windows                                                        | PASS |
+------------------------------------------------------------------------------
+Browser Windows                                                         
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\d_joh\OneDrive\Coding Projects\TestProject\TestCases\TabbedWindows.robot:27
+    T:  Browser Windows    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\d_joh\OneDrive\Coding Projects\TestProject\TestCases\TabbedWindows.robot:39
+      Get Title    
+______________________________________________________________________________
+| FAIL |
+MaxRetryError: HTTPConnectionPool(host='localhost', port=65453): Max retries exceeded with url: /session/dbdc7df8ebd8ee57b01ca0434e55475f/title (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000202F17EE4F0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+------------------------------------------------------------------------------
+Suites.TabbedWindows                                                  | FAIL |
+2 tests, 1 passed, 1 failed
+==============================================================================
+Suites                                                                | FAIL |
+2 tests, 1 passed, 1 failed
+==============================================================================
+Output:  C:\Users\d_joh\OneDrive\Coding Projects\TestProject\pabot_results\16\output.xml

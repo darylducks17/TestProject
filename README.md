@@ -21,5 +21,27 @@ Learning Web Automation using Robot Framework (Selenium with Python) as part of 
 - Data driven tests using scripts, Excel and CSV
 - Grouping tests using tags
 
+### How to run tests sequentially
+Executes all the tests
+``` robot -d Results TestCases\ ```
+``` robot -d Results TestCases\*.robot ```
+
+Executes tests which contain the first three letters 
+``` robot -d Results TestCases\Reg*.robot ```
+
+### How to run tests parallelly
+Executes tests parallelly 
+``` Pre-req: install robotframework-pabot in CMD ```
+``` pabot --processes 2 TestCase\*.robot ```
+
+Executes test parallelly but saves the results in the Results folder
+``` pabot --processes 2 --outputdir Results TestCase\*.robot ```
+
+Executes tests parallelly but without opening the project on your IDE/text editor
+- Create a batch file - run.bat
+- In run.bat specify the path 
+ ``` C:\Users\admin\xxxxxx\xxxxxx\TestProject pabot --processes 2 --outputdir Results TestCases\*.robot ```
+ - Run the CMD script
+
 ### Sources: 
 - https://www.youtube.com/playlist?list=PLUDwpEzHYYLsCHiiihnwl3L0xPspL7BPG

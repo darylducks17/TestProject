@@ -1,0 +1,32 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.Test :: Basic example Input text by search and click functions         
+==============================================================================
+Open Broswer Page                                                       
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\d_joh\OneDrive\Coding Projects\TestProject\TestCases\test.robot:19
+    T:  Open Broswer Page    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\d_joh\OneDrive\Coding Projects\TestProject\TestCases\test.robot:20
+      Open Webpage    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\d_joh\OneDrive\Coding Projects\TestProject\TestCases\test.robot:12
+      Open Browser    ${URL}
+      |  ${URL} = https://marketsquare.github.io/robotframework-browser/Browser.html (str)
+______________________________________________________________________________
+| FAIL |
+TimeoutError: page.goto: Timeout 10000ms exceeded.
+=========================== logs ===========================
+navigating to "https://marketsquare.github.io/robotframework-browser/Browser.html", waiting until "load"
+============================================================
+Tip: Use "Set Browser Timeout" for increasing the timeout or double check your locator as the targeted element(s) couldn't be found.
+------------------------------------------------------------------------------
+Suites.Test :: Basic example Input text by search and click functions | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Suites                                                                | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Users\d_joh\OneDrive\Coding Projects\TestProject\pabot_results\19\output.xml
