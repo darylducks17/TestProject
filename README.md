@@ -1,5 +1,5 @@
 # TestProject
-Learning Web Automation using Robot Framework (Selenium with Python) as part of my placement at Atradius.
+Learning Web Automation using Robot Framework (Selenium with Python) as part of my placement.
 
 ## Topics I Have Covered 
 - Handling input boxes
