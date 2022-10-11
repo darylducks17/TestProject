@@ -20,6 +20,8 @@ Learning Web Automation using Robot Framework (Selenium with Python) as part of 
 - Handling web/HTML tables
 - Data driven tests using scripts, Excel and CSV
 - Grouping tests using tags
+- POM design pattern 
+- Executing tests parallely 
 
 ### How to run tests sequentially
 Executes all the tests
