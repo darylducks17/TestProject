@@ -21,7 +21,8 @@ Learning Web Automation using Robot Framework (Selenium with Python) as part of 
 - Data driven tests using scripts, Excel and CSV
 - Grouping tests using tags
 - POM design pattern 
-- Executing tests parallely 
+- Executing tests parallelly 
+- Headless browser testing
 
 ### How to run tests sequentially
 Executes all the tests
@@ -44,6 +45,9 @@ Executes tests parallelly but without opening the project on your IDE/text edito
 - In run.bat specify the path 
  ``` C:\Users\admin\xxxxxx\xxxxxx\TestProject pabot --processes 2 --outputdir Results TestCases\*.robot ```
  - Run the CMD script
+
+ ### Note to Self
+ - Ensure to change to the correct path in run.bat
 
 ### Sources: 
 - https://www.youtube.com/playlist?list=PLUDwpEzHYYLsCHiiihnwl3L0xPspL7BPG
