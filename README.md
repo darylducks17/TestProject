@@ -63,10 +63,10 @@ Learning Web Automation using Robot Framework (Selenium with Python) as part of 
 ``` pabot --processes 2 --outputdir Results TestCase\*.robot ```
 
 - Executes tests parallelly but without opening the project on your IDE/text editor
-- Create a batch file - run.bat
-- In run.bat specify the path 
+    - Create a batch file - run.bat
+    - In run.bat specify the path 
  ``` C:\Users\admin\xxxxxx\xxxxxx\TestProject pabot --processes 2 --outputdir Results TestCases\*.robot ```
- - Run the CMD script
+    - Run the CMD script
 
  ## Note to Self
  - Ensure to change to the correct path in run.bat
