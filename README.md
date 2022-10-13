@@ -37,12 +37,21 @@ Learning Web Automation using Robot Framework (Selenium with Python) as part of 
 - Verify both Python and Robot Framework installation by doing ``` robot --version ``` and ``` python --version ``` in CMD.
 
 ### Installing Selenium Library and Drivers
+<<<<<<< HEAD
 
 - To run web automation testing in Robot Framework you need to install we testing library called Selenium Library which uses the Selenium tool internally.
   - Install Selenium Library using ``` pip install robotframework-seleniumframework ```
 - After installing the library you will also need to install the browser and OS specific browser drivers for the browsers you want to test.
   - For TestProject I used Edge, so downloaded the Edge driver from the website.
     - <https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/>
+=======
+- To run web automation testing in Robot Framework you need to install we testing library called Selenium Library which uses the Selenium tool internally. 
+    - Install Selenium Library using ``` pip install robotframework-seleniumframework ```
+- After installing the library you will also need to install the browser and OS specific browser drivers for the browsers you want to test. 
+    - For TestProject I used Edge, so downloaded the Edge driver from the website. 
+    - https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/
+    - Make sure to add to the Python Scripts folder to run the web automation tests. 
+>>>>>>> 37d3442cfd22e41f1b71e6a745918198992e49dd
 
 ### Other Pre-requisites  
 
@@ -74,7 +83,8 @@ Learning Web Automation using Robot Framework (Selenium with Python) as part of 
   - Create a batch file - run.bat
     - In run.bat specify the path
  ``` C:\Users\admin\xxxxxx\xxxxxx\TestProject pabot --processes 2 --outputdir Results TestCases\*.robot ```
-    - Run the CMD script
+    - Run the CMD script by double clicking the icon in directory
+    - Add `@echo off` in batch file to only show the results of the tests
 
 ## Note to Self
 
