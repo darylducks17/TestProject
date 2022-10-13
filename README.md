@@ -37,7 +37,6 @@ Learning Web Automation using Robot Framework (Selenium with Python) as part of 
 - Verify both Python and Robot Framework installation by doing ``` robot --version ``` and ``` python --version ``` in CMD.
 
 ### Installing Selenium Library and Drivers
-<<<<<<< HEAD
 
 - To run web automation testing in Robot Framework you need to install we testing library called Selenium Library which uses the Selenium tool internally.
   - Install Selenium Library using ``` pip install robotframework-seleniumframework ```
@@ -51,7 +50,6 @@ Learning Web Automation using Robot Framework (Selenium with Python) as part of 
     - For TestProject I used Edge, so downloaded the Edge driver from the website. 
     - https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/
     - Make sure to add to the Python Scripts folder to run the web automation tests. 
->>>>>>> 37d3442cfd22e41f1b71e6a745918198992e49dd
 
 ### Other Pre-requisites  
 
