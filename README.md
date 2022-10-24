@@ -62,6 +62,9 @@ Learning Web Automation using Robot Framework (Selenium with Python) as part of 
 - Executes tests which contain the first three letters
 ``` robot -d Results TestCases\Reg*.robot ```
 
+- Executes tests which contain the tags specified
+``` robot -d Results -i Smoke TestCases\*.robot ```
+
 ## How to run tests parallelly
 
 - Executes tests parallelly
